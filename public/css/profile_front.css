@@ -2,17 +2,12 @@ body {
   color: #000;
 }
 
-.header .logo {
-  width: 120px;
-  height: 82px;
-}
-
 .headline .caption {
   position: relative;
   width: 350px;
 }
 
-.headline .caption .title {
+.headline .caption .name {
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -20,13 +15,9 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.headline .caption .title h1 {
+.headline .caption .name h1 {
   color: #fff;
   font-size: 1.2em;
-}
-
-.headline .caption .body {
-  font-size: 0.8em;
 }
 
 .posts .post .date {
