@@ -15,7 +15,13 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <p class="body mx-auto">{{ str_limit($headline->body, 650) }}</p>
+                            <p class="hobby mx-auto">{{ str_limit($headline->hobby, 650) }}</p>
+                        </div>
+                         <div class="col-md-6">
+                            <p class="hobby mx-auto">{{ str_limit($headline->gender, 650) }}</p>
+                        </div>
+                         <div class="col-md-6">
+                            <p class="hobby mx-auto">{{ str_limit($headline->introduction, 650) }}</p>
                         </div>
                     </div>
                 </div>
